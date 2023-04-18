@@ -1,4 +1,43 @@
 //Style commun à tous les éléments
 body {
-  font-family: "Poppins", sans-serif;
+  width: $break-mobile;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  background-color: $color_around;
+  .search_bar_form {
+    input {
+      //bar de recherche
+      background-color: #f3f3f3;
+      //   background-image: url("searchicon.png");
+      width: 80%;
+    }
+  }
+  main {
+    h1 {
+      color: $color_text_black;
+    }
+    .btn {
+      //bouton du order
+      background-color: #ff5c28;
+      color: white;
+      border-radius: 10px;
+      width: 80%;
+      height: 40px;
+      font-size: 24px;
+    }
+    ul {
+      //liste des catégories
+      display: flex;
+      justify-content: space-between;
+      li {
+        color: $color_text_adress;
+        padding: 5px;
+      }
+    }
+  }
 }
+// categories rating price ingrédients
