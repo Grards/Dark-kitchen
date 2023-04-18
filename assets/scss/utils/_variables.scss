@@ -1,24 +1,14 @@
 // Breakpoints
-$break-desktop : 900px;
-
-
-//Fonts
-$font-text :'Crimson Text', serif;
-$font-main :'Josefin Sans', sans-serif;
-$font-name :'Playfair Display', serif;
+$break-desktop: 1440px;
+$break-mobile: 375px;
 
 //Colors
-
-$primary-red : #6e1b10;
-$primary-dark : #212021;
-$primary-white : #f5f5f5;
-
+$color_around: #fab289;
+$color_margin: #ff5c28;
+//cards colors
+$color_text_utility: #797575;
+$color_text_adress: #363535;
+$color_text_black: #000000;
 //Spacings
-$space-m: 1rem;
-$space-m: 1.5rem;
-
-$grid-gap:0.8rem;
 
 //Effect
-
-$small-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);

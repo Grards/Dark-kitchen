@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -19,7 +25,30 @@
       <article class="content_menu"></article>
       <ul></ul>
       <article class="content_food_cards--array"></article>
-      <article class="content_shopping_cart"></article>
+      <article class="content_shopping_cart">
+        <h2 class="shopping_cart_title"></h2>
+        <!-- <p class="shopping_cart_delivery_adress">l'adresse se fait en js?</p> -->
+        <div class="shopping_cart_infos">
+          <div class="shopping_cart_time">
+            <img src="" class="shopping_cart_time_img" />
+            <p class="shopping_cart_time_text"></p>
+          </div>
+          <div class="shopping_cart_km">
+            <img src="" class="shopping_cart_km_img" />
+            <p class="shopping_cart_km_text"></p>
+          </div>
+          <section class="shopping_cart_content_import"></section>
+          <section class="shopping_cart_checkout">
+            <div class="shopping_cart_checkout_sub_total"></div>
+            <div class="shopping_cart_checkout_sub_total_price"></div>
+            <div class="shopping_cart_checkout_delivery_free"></div>
+            <div class="shopping_cart_checkout_delivery_free_price"></div>
+            <div class="shopping_cart_checkout_total"></div>
+            <div class="shopping_cart_checkout_total_price"></div>
+            <input type="submit" value="Check Out" class="btn" />
+          </section>
+        </div>
+      </article>
     </main>
     <footer></footer>
   </body>
