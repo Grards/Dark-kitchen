@@ -1,5 +1,6 @@
 const menu = [
     {
+      id: 0,
       name: "Thai-style Stir-Fried Tofu",
       image: "url(./img/Mobile/tofu.jpg)",
       category: "vegan",
@@ -8,6 +9,7 @@ const menu = [
       rating: 4.5
     },
     {
+      id: 1,
       name: "Vegetarian Burger",
       image: "url(./img/Mobile/burgervg.jpg)",
       category: "vegan",
@@ -16,6 +18,7 @@ const menu = [
       rating: 4.2
     },
     {
+      id: 2,
       name: "Spaghetti Carbonara",
       image: "url(./img/Mobile/carbo.jpg)",
       category: "comfortfood",
@@ -24,6 +27,7 @@ const menu = [
       rating: 4.8
     },
     {
+      id: 3,
       name: "Mac & Cheese",
       image: "url(./img/Mobile/maccheese.jpg)",
       category: "comfortfood",
@@ -32,6 +36,7 @@ const menu = [
       rating: 4.6
     },
     {
+      id: 4,
       name: "Beef Bourguignon",
       image: "url(./img/Mobile/boeufbourguignon.jpg)",
       category: "traditionalfood",
@@ -40,6 +45,7 @@ const menu = [
       rating: 4.9
     },
     {
+      id: 5,
       name: "Cassoulet",
       image: "url(./img/Mobile/cassoulet.JPG)",
       category: "traditionalfood",
@@ -48,6 +54,7 @@ const menu = [
       rating: 4.7
     },
     {
+      id: 6,
       name: "Falafel Wrap",
       image: "url(./img/Mobile/falafel.jpg)",
       category: "vegan",
@@ -56,6 +63,7 @@ const menu = [
       rating: 4.3
     },
     {
+      id: 7,
       name: "Roast Chicken",
       image: "url(./img/Mobile/roastedchicken.jpg)",
       category: "traditionalfood",
@@ -64,6 +72,7 @@ const menu = [
       rating: 4.8
     },
     {
+      id: 8,
       name: "Margherita Pizza",
       image:"url(./img/Mobile/pizza.jpg)",
       category: "comfortfood",
@@ -72,6 +81,7 @@ const menu = [
       rating: 4.4
     },
     {
+      id: 9,
       name: "Lasagna Bolognese",
       image:"url(./img/Mobile/lasagne.jpg)",
       category: "traditionalfood",
@@ -80,6 +90,7 @@ const menu = [
       rating: 4.6
     },
     {
+      id: 10,
       name: "Mushroom Risotto",
       image: "url(./img/Mobile/risotto.jpg)",
       category: "vegan",
@@ -88,6 +99,7 @@ const menu = [
       rating: 4.5
     },
     {
+      id: 11,
       name: "Shepherd's Pie",
       image: "url(./img/Mobile/pie.jpg)",
       category: "comfortfood",
