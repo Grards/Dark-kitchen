@@ -1,7 +1,10 @@
 //Style commun à tous les éléments
 body {
   h1 {
+    margin-top: 5px;
     font-size: x-large;
+    font-weight: 1000;
+    text-transform: capitalize;
   }
   width: $break-mobile;
   font-family: "Open Sans", sans-serif;
@@ -11,18 +14,34 @@ body {
   font-weight: normal;
   line-height: 40px;
   background-color: $color_around;
+
+  .search_bar_form_around {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
+    padding-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .search_bar_form_around_img {
+      scale: 0.7;
+      margin-top: 7px;
+    }
+  }
   .search_bar_form {
     input {
       //bar de recherche
       background-color: #f3f3f3;
-      //   background-image: url("searchicon.png");
-      width: 80%;
+      width: 150%;
+      height: 90%;
+      border: none;
+      outline: none;
     }
   }
   main {
-    h1 {
-      color: $color_text_black;
-    }
     .btn {
       //bouton du order
       background-color: #ff5c28;
@@ -32,45 +51,109 @@ body {
       height: 40px;
       font-size: 24px;
     }
-    ul {
-      //liste des catégories
-      display: flex;
-      justify-content: space-between;
-      li {
-        color: $color_text_adress;
-        padding: 5px;
+    .menu_list {
+      width: $break-mobile;
+      #menu-deroulant li {
+        // on place les liens du menu horizontalement
+        display: inline-block;
+        // color: #f3f3f3;
+      }
+      ul {
+        .menu_deroulant_filter {
+          font-size: 25px;
+          font-weight: 500;
+          background-color: #f3f3f3;
+          border-radius: 20px;
+          width: 100px;
+          // color: #f3f3f3;
+        }
+        //liste des catégories
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-radius: 16px;
+        // width: 150px;
+
+        .menu_deroulant_hidden {
+          display: none;
+        }
+        .menu_list_border {
+          border-bottom: solid 1px $color_text_utility;
+        }
+        li {
+          color: $color_text_adress;
+          padding: 5px;
+          margin-left: 15px;
+          margin-right: 15px;
+        }
       }
     }
+    // cartes food
     .content_food_cards--array {
       width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-top: 20px;
-      .cards_image {
-        height: 300px;
-        width: 250px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-      }
-      .cards_content {
+      .cards_section {
+        background-color: white;
         margin-bottom: 50px;
-        h2 {
-          text-align: start;
-          font-size: 20px;
+        border-radius: 20px;
+        border: #ff5c28 solid 1px;
+        // Image dans la carte
+        .cards_image {
+          height: 300px;
+          width: 250px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
         }
-        .dish_price {
-          text-align: end;
+        // Texte dans la carte
+        .cards_content {
+          height: 80px;
+          padding-left: 5px;
+          padding-right: 5px;
+          .title_and_price {
+            display: flex;
+            justify-content: space-between;
+            line-height: 31px;
+            min-width: 100%;
+            font-size: 18px;
+            padding-bottom: 15px;
+
+            h2 {
+              text-align: start;
+              font-weight: 500;
+            }
+            .dish_price {
+              text-align: end;
+              font-weight: bold;
+            }
+          }
+          .category_and_rating {
+            display: flex;
+            justify-content: space-between;
+            line-height: 26px;
+            color: $color_text_utility;
+            font-size: 15px;
+            .dish_rate {
+              font-weight: bold;
+            }
+          }
         }
-      }
-      .cards_image,
-      .cards_content {
-        background-color: #ff5c28;
       }
     }
   }
 }
-// categories rating price ingrédients
+
+/* 
+Valeurs js ($ dans les prix et noter avec des ★)
+Images 
+Photos de Marine pour photoshop 
+*/
+
+@media screen and (min-width: 376px) {
+}
