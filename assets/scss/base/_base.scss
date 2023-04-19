@@ -41,6 +41,36 @@ body {
         padding: 5px;
       }
     }
+    .content_food_cards--array {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      .cards_image {
+        height: 300px;
+        width: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+      }
+      .cards_content {
+        margin-bottom: 50px;
+        h2 {
+          text-align: start;
+          font-size: 20px;
+        }
+        .dish_price {
+          text-align: end;
+        }
+      }
+      .cards_image,
+      .cards_content {
+        background-color: #ff5c28;
+      }
+    }
   }
 }
 // categories rating price ingrédients
