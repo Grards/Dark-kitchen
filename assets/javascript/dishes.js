@@ -1,7 +1,7 @@
 const menu = [
     {
       name: "Thai-style Stir-Fried Tofu",
-      image:" url(./img/tofu.jpg) ",
+      image: "url(./img/Mobile/tofu.jpg)",
       category: "vegan",
       price: 12.99,
       ingredients: ["tofu", "coconut milk", "red curry paste", "bell peppers", "onions"],
@@ -9,7 +9,7 @@ const menu = [
     },
     {
       name: "Vegetarian Burger",
-      image:" url(./img/burgervg.jpg) ",
+      image: "url(./img/Mobile/burgervg.jpg)",
       category: "vegan",
       price: 14.99,
       ingredients: ["burger bun", "soy patty", "avocado", "tomato", "red onion"],
@@ -17,7 +17,7 @@ const menu = [
     },
     {
       name: "Spaghetti Carbonara",
-      image:" url(./img/carbo.jpg) ",
+      image: "url(./img/Mobile/carbo.jpg)",
       category: "comfortfood",
       price: 16.99,
       ingredients: ["spaghetti", "bacon", "eggs", "parmesan cheese", "heavy cream"],
@@ -25,7 +25,7 @@ const menu = [
     },
     {
       name: "Mac & Cheese",
-      image:" url(./img/mac&cheese.jpg) ",
+      image: "url(./img/Mobile/maccheese.jpg)",
       category: "comfortfood",
       price: 13.99,
       ingredients: ["macaroni", "cheddar cheese", "milk", "butter", "flour"],
@@ -33,7 +33,7 @@ const menu = [
     },
     {
       name: "Beef Bourguignon",
-      image:" url(./img/boeufbourguinon.jpg) ",
+      image: "url(./img/Mobile/boeufbourguignon.jpg)",
       category: "traditionalfood",
       price: 21.99,
       ingredients: ["beef", "red wine", "carrots", "onions", "garlic"],
@@ -41,7 +41,7 @@ const menu = [
     },
     {
       name: "Cassoulet",
-      image:" url(./img/cassoulet.JPG) ",
+      image: "url(./img/Mobile/cassoulet.JPG)",
       category: "traditionalfood",
       price: 19.99,
       ingredients: ["Toulouse sausage", "pork shank", "white beans", "tomatoes", "garlic"],
@@ -49,7 +49,7 @@ const menu = [
     },
     {
       name: "Falafel Wrap",
-      image:" url(./img/falafel.jpg) ",
+      image: "url(./img/Mobile/falafel.jpg)",
       category: "vegan",
       price: 9.99,
       ingredients: ["pita bread", "falafel", "hummus", "onions", "tomatoes"],
@@ -57,7 +57,7 @@ const menu = [
     },
     {
       name: "Roast Chicken",
-      image:" url(./img/roastedchicken.jpg) ",
+      image: "url(./img/Mobile/roastedchicken.jpg)",
       category: "traditionalfood",
       price: 18.99,
       ingredients: ["chicken", "thyme", "rosemary", "lemon", "garlic"],
@@ -65,7 +65,7 @@ const menu = [
     },
     {
       name: "Margherita Pizza",
-      image:"url(./img/pizza.jpg) ",
+      image:"url(./img/Mobile/pizza.jpg)",
       category: "comfortfood",
       price: 15.99,
       ingredients: ["pizza dough", "tomato sauce", "mozzarella cheese", "basil", "olive oil"],
@@ -73,7 +73,7 @@ const menu = [
     },
     {
       name: "Lasagna Bolognese",
-      image:"url(./img/pizza.jpg)",
+      image:"url(./img/Mobile/lasagne.jpg)",
       category: "traditionalfood",
       price: 17.99,
       ingredients: ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "parmesan cheese"],
@@ -81,7 +81,7 @@ const menu = [
     },
     {
       name: "Mushroom Risotto",
-      image:"url(.img/risotto.jpg)",
+      image: "url(./img/Mobile/risotto.jpg)",
       category: "vegan",
       price: 18.99,
       ingredients: ["arborio rice", "mushrooms", "onion", "garlic", "vegetable broth"],
@@ -89,13 +89,10 @@ const menu = [
     },
     {
       name: "Shepherd's Pie",
-      image:"url(./img/pie.jpg)",
+      image: "url(./img/Mobile/pie.jpg)",
       category: "comfortfood",
       price: 16.99,
       ingredients: ["ground beef", "mashed potatoes", "carrots", "peas", "onions"],
       rating: 4.7
     }
-
-]  
-
-console.log (menu);
+]
