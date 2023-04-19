@@ -143,6 +143,9 @@ body {
   line-height: 40px;
   background-color: #fab289;
 }
+body h1 {
+  font-size: x-large;
+}
 body .search_bar_form input {
   background-color: #f3f3f3;
   width: 80%;
