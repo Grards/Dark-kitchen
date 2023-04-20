@@ -26,8 +26,8 @@ body {
     background-color: #f3f3f3;
     padding-left: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    max-width: 400px;
-    margin: 20px auto;
+    max-width: 250px;
+    margin: 40px auto 30px auto;
     overflow: hidden;
     .search_bar_form_around_img {
       scale: 0.7;
@@ -38,7 +38,7 @@ body {
     input {
       //bar de recherche
       background-color: #f3f3f3;
-      width: 150%;
+      width: 200px;
       height: 90%;
       border: none;
       outline: none;
@@ -102,12 +102,25 @@ body {
       align-items: center;
       gap: 10px;
       margin-top: 20px;
+      .cards_section, .cards_image{
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+      }
       .cards_section {
+        cursor: pointer;
         background-color: white;
         margin-bottom: 50px;
         border-radius: 20px;
         border: #ff5c28 solid 1px;
+        overflow: hidden;
         // Image dans la carte
+        &:hover .cards_image{
+          transform: scale(0.8);
+        }
+        &:hover{
+          background-color: rgb(233, 228, 199);
+        }
         .cards_image {
           height: 300px;
           width: 300px;
@@ -117,6 +130,7 @@ body {
           border-top-right-radius: 20px;
           border-top-left-radius: 20px;
         }
+
         // Texte dans la carte
         .cards_content {
           height: 80px;
@@ -147,7 +161,10 @@ body {
             color: #797575;
             font-size: 15px;
             .dish_rate {
-              font-weight: bold;
+              font-weight: bold; 
+            }
+            .dish_rating--stars{
+              color: $color_margin;
             }
           }
         }
@@ -201,12 +218,11 @@ html {
         }
       }
     }
-    .dark_mode_btn img{
+    .dark_mode_btn img, .shopping-cart-icon img{
       filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(42deg) brightness(102%) contrast(101%);
     }
   }
 }
-
 // @include responsive-desktop{
 //   body{
 //   }

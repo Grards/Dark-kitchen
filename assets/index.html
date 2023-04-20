@@ -20,15 +20,15 @@
   <body>
     <header>
       <h1>Dark kitchen</h1>
-      <div class="button_dark">
-        <button onclick="changeMode()" class="dark_mode_btn">
+      <div class="button_dark" title="Night/Day Mode">
+        <div onclick="changeMode()" class="dark_mode_btn">
           <img src="./img/theme-light-dark.svg" />
-        </button>
+        </div>
       </div>
-      <div class="shopping-cart-icon">
-        <button onclick="showPurchases()" class="showPurchases">
+      <div class="shopping-cart-icon" class="dark_mode_btn" title="List of purchases">
+        <div class="showPurchases">
           <img src="./img/cart2.svg" />
-        </button>
+        </div>
       </div>
       <div class="nav_bar">
         <article class="nav_search_bar">
@@ -45,13 +45,13 @@
             </form>
           </div>
         </article>
-        <div class="nav_burger"></div>
-        <nav class="nav_icons"></nav>
+        <!-- <div class="nav_burger"></div>
+        <nav class="nav_icons"></nav> -->
       </div>
     </header>
 
     <main>
-      <article class="content_menu"></article>
+      <!-- <article class="content_menu"></article>
       <div class="menu_list">
         <ul id="menu-deroulant">
           <li class="menu_deroulant_filter">Filtres</li>
@@ -64,10 +64,10 @@
             <li class="menu_list_border">Ingrédients</li>
           </ul>
         </ul>
-      </div>
+      </div> -->
       <!-- categories rating price ingrédients -->
 
-      <article class="content_food_cards--array"></article>
+      <article class="content_food_cards--array" title="Add to cart"></article>
       <article class="content_shopping_cart">
         <h2 class="shopping_cart_title"></h2>
         <!-- <p class="shopping_cart_delivery_adress">l'adresse se fait en js?</p> -->

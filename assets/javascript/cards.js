@@ -16,7 +16,7 @@ function renderProducts(){
           </div>
           <div class="category_and_rating">
             <p class="dish_category">${product.category}</p>
-            <p class="dish_rating">${product.rating}</p>
+            <p class="dish_rating" >${product.rating} <span class="dish_rating--stars">&starf;</span></p>
           </div>
         </section>
       </article>

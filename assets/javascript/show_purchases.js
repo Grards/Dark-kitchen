@@ -1,8 +1,13 @@
-function showPurchases() {
-    const purchases = document.querySelector("shopping_cart_infos");
-  
-    // toggle the render
+const purchases = document.querySelector(".shopping_cart_infos");
+const cart_shop = document.querySelector(".shopping-cart-icon");
+console.log(cartItemsElements);
+
+function showPurchases() { 
+  if((cartItemsElements.childElementCount == "") && ((purchases.style["transform"] ) == "translateX(-100%)" )){
+    alert('You have no purchases !');      
+  }else{
     purchases.classList.toggle("renderPurchases");
-    console.log(purchases);
   }
-  
+}
+
+cart_shop.addEventListener("click", showPurchases);

@@ -1,56 +1,27 @@
 .button_dark {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: space-between;
   align-items: center;
-}
-.dark_mode_btn {
-  // position: relative;
-  // right: -15px;
-  // top: -15px;
-  background-color: $color_around;
   border: none;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 25px;
+  left: 15px;
   cursor: pointer;
 }
-.dark-theme {
-  header{
-    .button_dark{
-      .dark_mode_btn{
-        background-color: #464646;
-      }
-    }
-    // .shopping-cart-icon{
-    //   .showPurchases{
-    //     background-color: #464646;
-    //   }
-    // }
-  }
-}
-
 
 .shopping-cart-icon{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  height: 50px;
-  width: 50px;
+  position:fixed;
+  top: 25px;
+  right: 15px;
+  height: 35px;
+  width: 35px;
+  z-index: 2000;
   .showPurchases{
-    background-color: $color_around;
     border: none;
     cursor: pointer;
   }
   img{
     height: 100%;
     width: 100%;
-    background-color: $color_around;
   }
-
-}
-.renderPurchases{
-  transform: translateX(50%);
 }
