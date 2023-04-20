@@ -153,6 +153,18 @@ body {
         }
       }
     }
+    .content_shopping_cart {
+      .shopping_cart_infos {
+        .shopping_cart_content_import {
+          .cart_section {
+            background-color: #f3f3f3;
+          }
+          .shopping_cart_checkout {
+            background-color: #f3f3f3;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -176,6 +188,16 @@ html {
           .category_and_rating {
             color: white;
           }
+        }
+      }
+    }
+    .shopping_cart_checkout {
+      background-color: #717171;
+    }
+    .shopping_cart_infos {
+      .shopping_cart_content_import {
+        .cart_content {
+          background-color: #717171;
         }
       }
     }
