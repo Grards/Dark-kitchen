@@ -266,6 +266,12 @@ body main .content_food_cards--array .cards_section .cards_content .category_and
 body main .content_food_cards--array .cards_section .cards_content .category_and_rating .dish_rate {
   font-weight: bold;
 }
+body main .content_shopping_cart .shopping_cart_infos .shopping_cart_content_import .cart_section {
+  background-color: #f3f3f3;
+}
+body main .content_shopping_cart .shopping_cart_infos .shopping_cart_content_import .shopping_cart_checkout {
+  background-color: #f3f3f3;
+}
 
 html .dark-theme {
   color: #fffefe;
@@ -281,6 +287,12 @@ html .dark-theme main .content_food_cards--array .cards_content {
 }
 html .dark-theme main .content_food_cards--array .cards_content .category_and_rating {
   color: white;
+}
+html .dark-theme .shopping_cart_checkout {
+  background-color: #717171;
+}
+html .dark-theme .shopping_cart_infos .shopping_cart_content_import .cart_content {
+  background-color: #717171;
 }
 
 .shopping_cart_content_import {
