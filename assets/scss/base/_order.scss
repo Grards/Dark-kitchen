@@ -1,0 +1,49 @@
+//styling order cards in shopping cart//
+
+.shopping_cart_content_import {
+    width : 100%;
+    min-height: 0;
+    margin: 0 auto; 
+    
+    
+
+
+    .cart_section {
+        display: flex;
+        justify-content:space-around; 
+
+        .cart_image {
+            flex-basis: 40%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+        }
+        .cart_content { 
+            flex-basis: 65%;
+            .title_and_price {
+                display: flex;
+                justify-content: space-around;
+
+                .units{
+                    display: flex;
+                    justify-content: space-around;
+
+                
+                    
+                     
+                }
+                
+            }
+
+        }
+    }
+
+    
+}
+
+
+.shopping_cart_checkout {
+
+}
+

@@ -1,0 +1,20 @@
+.shopping_cart_content_import {
+  min-height: 0;
+  margin: 0 auto;
+  background-color: red;
+}
+.shopping_cart_content_import .cart_section .cart_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shopping_cart_content_import .cart_section .cart_content .title_and_price h2 {
+  flex-basis: 50%;
+}
+.shopping_cart_content_import .cart_section .cart_content .title_and_price dish_price {
+  flex-basis: 50%;
+}
+
+.title_and_price {
+  background-color: green !important;
+}/*# sourceMappingURL=order.css.map */
