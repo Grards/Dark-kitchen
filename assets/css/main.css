@@ -150,6 +150,9 @@ body h1 {
   font-weight: 1000;
   text-transform: capitalize;
 }
+body .nav_bar {
+  padding: 0 20px;
+}
 body .search_bar_form_around {
   border-radius: 20px;
   display: flex;
@@ -157,10 +160,9 @@ body .search_bar_form_around {
   background-color: #f3f3f3;
   padding-left: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 85%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  overflow: hidden;
 }
 body .search_bar_form_around .search_bar_form_around_img {
   scale: 0.7;
@@ -216,8 +218,11 @@ body main .menu_list ul li {
 body main .content_food_cards--array {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
   margin-top: 20px;
 }
 body main .content_food_cards--array .cards_section {

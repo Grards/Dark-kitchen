@@ -1,12 +1,5 @@
 //Style commun à tous les éléments
 body {
-  h1 {
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 28px;
-    font-weight: 1000;
-    text-transform: capitalize;
-  }
   width: 100%;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -16,6 +9,17 @@ body {
   line-height: 40px;
   background-color: $color_around;
 
+  h1 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 28px;
+    font-weight: 1000;
+    text-transform: capitalize;
+  }
+
+  .nav_bar{
+    padding: 0 20px;
+  }
   .search_bar_form_around {
     border-radius: 20px;
     display: flex;
@@ -23,10 +27,9 @@ body {
     background-color: #f3f3f3;
     padding-left: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 85%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    overflow: hidden;
     .search_bar_form_around_img {
       scale: 0.7;
       margin-top: 7px;
@@ -94,8 +97,11 @@ body {
     .content_food_cards--array {
       width: 100%;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
+      gap: 10px;
       margin-top: 20px;
       .cards_section {
         background-color: white;
@@ -173,5 +179,10 @@ html {
         }
       }
     }
+  }
+}
+
+@include responsive-desktop{
+  body{
   }
 }
