@@ -20,13 +20,18 @@
       <h1>La cuisine de Marine</h1>
       <div class="nav_bar">
         <article class="nav_search_bar">
-          <form class="search_bar_form">
-            <input
-              type="text"
-              name="search"
-              placeholder="What would you like to eat?"
-            />
-          </form>
+          <div class="search_bar_form_around">
+            <div class="search_bar_form_around_img">
+              <img src="./img/loupe.svg" alt="Image loupe" />
+            </div>
+            <form class="search_bar_form">
+              <input
+                type="text"
+                name="search"
+                placeholder="What would you like to eat?"
+              />
+            </form>
+          </div>
         </article>
         <div class="nav_burger"></div>
         <nav class="nav_icons"></nav>
@@ -35,7 +40,21 @@
 
     <main>
       <article class="content_menu"></article>
-      <ul></ul>
+      <div class="menu_list">
+        <ul id="menu-deroulant">
+          <li class="menu_deroulant_filter">Filtres</li>
+          <ul class="menu_deroulant_hidden">
+            <li class="menu_list_border">Vegan</li>
+            <li class="menu_list_border">ComfortFood</li>
+            <li class="menu_list_border">TraditionalFood</li>
+            <li class="menu_list_border">Rating</li>
+            <li class="menu_list_border">Price</li>
+            <li class="menu_list_border">Ingrédients</li>
+          </ul>
+        </ul>
+      </div>
+      <!-- categories rating price ingrédients -->
+
       <article class="content_food_cards--array"></article>
       <article class="content_shopping_cart">
         <h2 class="shopping_cart_title"></h2>
@@ -63,6 +82,8 @@
         </div>
       </article>
     </main>
-    <footer></footer>
+    <footer>
+      <p>La cuisine de Marine toi-même tu connais</p>
+    </footer>
   </body>
 </html>

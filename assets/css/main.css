@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -144,14 +145,33 @@ body {
   background-color: #fab289;
 }
 body h1 {
+  margin-top: 5px;
   font-size: x-large;
+  font-weight: 1000;
+  text-transform: capitalize;
+}
+body .search_bar_form_around {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+  padding-left: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .search_bar_form_around .search_bar_form_around_img {
+  scale: 0.7;
+  margin-top: 7px;
 }
 body .search_bar_form input {
   background-color: #f3f3f3;
-  width: 80%;
-}
-body main h1 {
-  color: #000000;
+  width: 150%;
+  height: 90%;
+  border: none;
+  outline: none;
 }
 body main .btn {
   background-color: #ff5c28;
@@ -161,13 +181,37 @@ body main .btn {
   height: 40px;
   font-size: 24px;
 }
-body main ul {
-  display: flex;
-  justify-content: space-between;
+body main .menu_list {
+  width: 375px;
 }
-body main ul li {
+body main .menu_list #menu-deroulant li {
+  display: inline-block;
+}
+body main .menu_list ul {
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 16px;
+}
+body main .menu_list ul .menu_deroulant_filter {
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  width: 100px;
+}
+body main .menu_list ul .menu_deroulant_hidden {
+  display: none;
+}
+body main .menu_list ul .menu_list_border {
+  border-bottom: solid 1px #797575;
+}
+body main .menu_list ul li {
   color: #363535;
   padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 body main .content_food_cards--array {
   width: 100%;
@@ -176,7 +220,13 @@ body main .content_food_cards--array {
   align-items: center;
   margin-top: 20px;
 }
-body main .content_food_cards--array .cards_image {
+body main .content_food_cards--array .cards_section {
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: #ff5c28 solid 1px;
+}
+body main .content_food_cards--array .cards_section .cards_image {
   height: 300px;
   width: 250px;
   background-size: cover;
@@ -185,17 +235,40 @@ body main .content_food_cards--array .cards_image {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-body main .content_food_cards--array .cards_content {
-  margin-bottom: 50px;
+body main .content_food_cards--array .cards_section .cards_content {
+  height: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-body main .content_food_cards--array .cards_content h2 {
+body main .content_food_cards--array .cards_section .cards_content .title_and_price {
+  display: flex;
+  justify-content: space-between;
+  line-height: 31px;
+  min-width: 100%;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+body main .content_food_cards--array .cards_section .cards_content .title_and_price h2 {
   text-align: start;
-  font-size: 20px;
+  font-weight: 500;
 }
-body main .content_food_cards--array .cards_content .dish_price {
+body main .content_food_cards--array .cards_section .cards_content .title_and_price .dish_price {
   text-align: end;
+  font-weight: bold;
 }
-body main .content_food_cards--array .cards_image,
-body main .content_food_cards--array .cards_content {
-  background-color: #ff5c28;
-}/*# sourceMappingURL=main.css.map */
+body main .content_food_cards--array .cards_section .cards_content .category_and_rating {
+  display: flex;
+  justify-content: space-between;
+  line-height: 26px;
+  color: #797575;
+  font-size: 15px;
+}
+body main .content_food_cards--array .cards_section .cards_content .category_and_rating .dish_rate {
+  font-weight: bold;
+}
+
+/* 
+Valeurs js ($ dans les prix et noter avec des ★)
+Images 
+Photos de Marine pour photoshop 
+*//*# sourceMappingURL=main.css.map */
