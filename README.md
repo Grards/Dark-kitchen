@@ -8,10 +8,10 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,sass" />
+    <img src="https://skillicons.dev/icons?i=js,html,css,sass,git" />
   </a>
 </p>
-<img src="https://img.shields.io/badge/Technos-HMTL5_/_SCSS_/_CSS3_/_JS-green?style=for-the-badge&logo=appveyor" alt="Badge Technologies" style="margin-right:10px;">
+<img src="https://img.shields.io/badge/Technos-HMTL5_/_SCSS_/_CSS3_/_JS_/_Git-green?style=for-the-badge&logo=appveyor" alt="Badge Technologies" style="margin-right:10px;">
 
 | Collaborators        | Github                        | Missions                                     |
 | -------------------- | ----------------------------- | -------------------------------------------- |
@@ -21,8 +21,6 @@
 | Marine Fassin        | https://github.com/MarineFsn  | Order System + Order cards Style             |
 | Jodie Addis          | https://github.com/JodieAddis | Order System + Sort System                   |
 | Steve Grard          | https://github.com/Grards     | Order System + Code Revue + Trello + Readme  |
-
----
 
 <img src="https://img.shields.io/badge/Collaborators-6-red?style=for-the-badge&logo=appveyor" alt="Badge Collaborators" style="margin-right:10px;">
 
