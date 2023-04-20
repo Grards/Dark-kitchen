@@ -1,5 +1,9 @@
 # Dark Kitchen
 
+> Dark kitchens are also known as virtual kitchens, cloud kitchens, ghost kitchens or delivery-only restaurants. However you call it, a dark kitchen always revolves around the same concept: selling meals exclusively through delivery. Ghost kitchens have no sitting capacity for in-house diners or walk-ins, as they focus only on delivery, preparing food once an order comes in through a delivery app or an online ordering system.
+
+<br>
+
 ## 🛠 Technos
 
 <p align="center">
@@ -23,6 +27,8 @@
 <img src="https://img.shields.io/badge/Collaborators-6-red?style=for-the-badge&logo=appveyor" alt="Badge Collaborators" style="margin-right:10px;">
 
 <!-- Ajout de screen / lien pour visionner le site -->
+
+---
 
 <a href="https://becode.org"><img src="https://img.shields.io/badge/Project-BeCode-blue?style=for-the-badge&logo=appveyor" alt="Badge Project" style="margin-right:10px;">
 </a>
