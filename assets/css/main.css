@@ -228,7 +228,7 @@ body main .content_food_cards--array .cards_section {
 }
 body main .content_food_cards--array .cards_section .cards_image {
   height: 300px;
-  width: 250px;
+  width: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
