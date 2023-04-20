@@ -1,4 +1,14 @@
 //styling order cards in shopping cart//
+.shopping_cart_infos{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    // right: -1000px;
+    z-index: 1500;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
 
 .shopping_cart_content_import {
     width: 100%;
@@ -30,12 +40,15 @@
 
             .title_and_price {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-around;
                 font-size: medium;
+                p{
+                    font-weight: bold;
+                }
             }
 
             .units {
-                margin-top: 45px;
                 height: 35px;
                 display: flex;
                 justify-content: center;
