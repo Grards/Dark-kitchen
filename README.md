@@ -1,4 +1,4 @@
-<a href="https://becode.org/%22%3E<img src="https://img.shields.io/badge/Project-BeCode-blue?style=for-the-badge&logo=appveyor" alt="Badge Project" style="margin-right:10px;"></a>
+<a href="https://becode.org/%22%3E <img src="https://img.shields.io/badge/Project-BeCode-blue?style=for-the-badge&logo=appveyor" alt="Badge Project" style="margin-right:10px;"></a>
 <img src="https://img.shields.io/badge/Collaborators-6-red?style=for-the-badge&logo=appveyor" alt="Badge Collaborators" style="margin-right:10px;"> 
 <img src="https://img.shields.io/badge/Technos-HMTL5_/_SCSS_/_CSS3_/_JS-green?style=for-the-badge&logo=appveyor" alt="Badge Technologies" style="margin-right:10px;">
 
