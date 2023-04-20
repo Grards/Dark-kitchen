@@ -134,7 +134,7 @@ table {
 }
 
 body {
-  width: 375px;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -177,12 +177,12 @@ body main .btn {
   background-color: #ff5c28;
   color: white;
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
   height: 40px;
   font-size: 24px;
 }
 body main .menu_list {
-  width: 375px;
+  width: 100%;
 }
 body main .menu_list #menu-deroulant li {
   display: inline-block;
@@ -281,6 +281,32 @@ html .dark-theme main .content_food_cards--array .cards_content {
 }
 html .dark-theme main .content_food_cards--array .cards_content .category_and_rating {
   color: white;
+}
+
+.shopping_cart_content_import {
+  width: 100%;
+  min-height: 0;
+  margin: 0 auto;
+}
+.shopping_cart_content_import .cart_section {
+  display: flex;
+  justify-content: space-around;
+}
+.shopping_cart_content_import .cart_section .cart_image {
+  flex-basis: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shopping_cart_content_import .cart_section .cart_content {
+  flex-basis: 65%;
+}
+.shopping_cart_content_import .cart_section .cart_content .title_and_price {
+  display: flex;
+  justify-content: space-around;
+}
+.shopping_cart_content_import .cart_section .cart_content .title_and_price .units {
+  display: flex;
+  justify-content: space-around;
 }
 
 .button_dark {
