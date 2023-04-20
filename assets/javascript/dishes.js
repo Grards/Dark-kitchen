@@ -3,7 +3,7 @@ const menu = [
       id: 0,
       name: "Thai-style Stir-Fried Tofu",
       image: "url(./img/Mobile/tofu.jpg)",
-      category: "vegan",
+      category: ["vegan"],
       price: 12.99,
       ingredients: ["tofu", "coconut milk", "red curry paste", "bell peppers", "onions"],
       rating: 4.5

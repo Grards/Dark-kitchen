@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <script src="../assets/javascript/dishes.js"></script>
     <script defer src="../assets/javascript/cards.js"></script>
+    <script defer src="../assets/javascript/filter.js"></script>
   </head>
   <body>
     <header>
@@ -37,16 +38,15 @@
         <nav class="nav_icons"></nav>
       </div> -->
     </header>
-
     <main>
       <article class="content_menu"></article>
       <div class="menu_list">
         <ul id="menu-deroulant">
           <!-- <li class="menu_deroulant_filter">Filtres</li>
           <ul class="menu_deroulant_hidden"> -->
-            <li class="menu_list_border">Vegan</li>
-            <li class="menu_list_border">ComfortFood</li>
-            <li class="menu_list_border">TraditionalFood</li>
+            <li class="menu_list_border" onclick=" filter()">Vegan</li>
+            <li class="menu_list_border" onclick="filter()">Comfort Food</li>
+            <li class="menu_list_border" onclick="filter()">Traditional Food</li>
             <!-- <li class="menu_list_border">Rating</li>
             <li class="menu_list_border">Price</li>
             <li class="menu_list_border">Ingrédients</li> -->
