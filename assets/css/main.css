@@ -177,7 +177,7 @@ body main .btn {
   background-color: #ff5c28;
   color: white;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   height: 40px;
   font-size: 24px;
 }
@@ -279,21 +279,48 @@ Photos de Marine pour photoshop
 }
 .shopping_cart_content_import .cart_section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  height: 150px;
+  margin: 20px 40px;
+  border: 2px solid #ff5c28;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .shopping_cart_content_import .cart_section .cart_image {
-  flex-basis: 40%;
+  flex-basis: 250px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .shopping_cart_content_import .cart_section .cart_content {
-  flex-basis: 65%;
+  flex-basis: 100%;
+  background-color: whitesmoke;
+  padding: 15px;
 }
 .shopping_cart_content_import .cart_section .cart_content .title_and_price {
   display: flex;
   justify-content: space-around;
+  font-size: medium;
 }
-.shopping_cart_content_import .cart_section .cart_content .title_and_price .units {
+.shopping_cart_content_import .cart_section .cart_content .units {
+  margin-top: 45px;
+  height: 35px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.shopping_cart_content_import .cart_section .cart_content .units .minus,
+.shopping_cart_content_import .cart_section .cart_content .units .plus {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 100%;
+}
+.shopping_cart_content_import .cart_section .cart_content .units .number {
+  margin: 10px;
+  line-height: 17.5px;
+}
+
+.shopping_cart_checkout {
+  background-color: whitesmoke;
+  border-top: 2px solid #ff5c28;
 }/*# sourceMappingURL=main.css.map */

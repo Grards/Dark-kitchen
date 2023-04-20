@@ -1,49 +1,64 @@
 //styling order cards in shopping cart//
 
 .shopping_cart_content_import {
-    width : 100%;
+    width: 100%;
     min-height: 0;
-    margin: 0 auto; 
-    
-    
-
+    margin: 0 auto;
 
     .cart_section {
         display: flex;
-        justify-content:space-around; 
+        justify-content: center;
+        height: 150px;
+        margin: 20px 40px;
+        border: 2px solid $color_margin;
+        border-radius: 15px;
+        overflow: hidden;
+
 
         .cart_image {
-            flex-basis: 40%;
+            flex-basis: 250px;
             background-repeat: no-repeat;
+            background-position: center;
             background-size: cover;
             
-            
         }
-        .cart_content { 
-            flex-basis: 65%;
+
+        .cart_content {
+            flex-basis: 100%;
+            background-color: whitesmoke;
+            padding: 15px;
+
             .title_and_price {
                 display: flex;
                 justify-content: space-around;
-
-                .units{
-                    display: flex;
-                    justify-content: space-around;
-
-                
-                    
-                     
-                }
-                
+                font-size: medium;
             }
 
+            .units {
+                margin-top: 45px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+
+                .minus,
+                .plus {
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    border-radius: 100%;
+                }
+
+                .number {
+                    margin: 10px;
+                    line-height: 17.5px;
+                }
+            }
         }
     }
-
-    
 }
-
 
 .shopping_cart_checkout {
+    background-color: whitesmoke;
+    border-top: 2px solid $color_margin;
 
 }
-
