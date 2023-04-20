@@ -1,0 +1,23 @@
+.button_dark {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  align-items: center;
+}
+.dark_mode_btn {
+  // position: relative;
+  // right: -15px;
+  // top: -15px;
+  background-color: $color_around;
+  border: none;
+  scale: 0.4;
+}
+.dark-theme {
+  footer {
+    .button_dark {
+      .dark_mode_btn {
+        background-color: #464646;
+      }
+    }
+  }
+}

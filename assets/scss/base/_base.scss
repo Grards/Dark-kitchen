@@ -2,7 +2,8 @@
 body {
   h1 {
     margin-top: 5px;
-    font-size: x-large;
+    margin-left: 5px;
+    font-size: 28px;
     font-weight: 1000;
     text-transform: capitalize;
   }
@@ -76,7 +77,7 @@ body {
         // width: 150px;
 
         .menu_deroulant_hidden {
-          display: none;
+          display: none; //menu caché
         }
         .menu_list_border {
           border-bottom: solid 1px $color_text_utility;
@@ -137,7 +138,7 @@ body {
             display: flex;
             justify-content: space-between;
             line-height: 26px;
-            color: $color_text_utility;
+            color: #797575;
             font-size: 15px;
             .dish_rate {
               font-weight: bold;
@@ -149,11 +150,28 @@ body {
   }
 }
 
-/* 
-Valeurs js ($ dans les prix et noter avec des ★)
-Images 
-Photos de Marine pour photoshop 
-*/
+//Dark mode
 
-@media screen and (min-width: 376px) {
+html {
+  .dark-theme {
+    color: #fffefe;
+
+    //body dark
+    .menu_deroulant_filter {
+      background-color: $color_text_utility;
+    }
+    background-color: #464646;
+    main {
+      .content_food_cards--array {
+        .cards_content {
+          background-color: #717171;
+          border-bottom-right-radius: 19px;
+          border-bottom-left-radius: 19px;
+          .category_and_rating {
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }
