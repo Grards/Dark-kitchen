@@ -190,30 +190,18 @@ body main .menu_list #menu-deroulant li {
   display: inline-block;
 }
 body main .menu_list ul {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 300;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 30px;
   border-radius: 16px;
 }
-body main .menu_list ul .menu_deroulant_filter {
-  font-size: 25px;
-  font-weight: 500;
-  background-color: #f3f3f3;
-  border-radius: 20px;
-  width: 100px;
-}
-body main .menu_list ul .menu_deroulant_hidden {
-  display: none;
-}
-body main .menu_list ul .menu_list_border {
-  border-bottom: solid 1px #797575;
-}
 body main .menu_list ul li {
-  color: #363535;
-  padding: 5px;
-  margin-left: 15px;
-  margin-right: 15px;
+  color: #ff5c28;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  padding: 3px 10px 3px 10px;
+  border-radius: 10px;
+  border: #ff5c28 solid 2px;
 }
 body main .content_food_cards--array {
   width: 100%;

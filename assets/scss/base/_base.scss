@@ -62,19 +62,18 @@ body {
         // color: #f3f3f3;
       }
       ul {
-        .menu_deroulant_filter {
-          font-size: 25px;
-          font-weight: 500;
-          background-color: #f3f3f3;
-          border-radius: 20px;
-          width: 100px;
-          // color: #f3f3f3;
-        }
+        // .menu_deroulant_filter {
+        //   font-size: 25px;
+        //   font-weight: 500;
+        //   background-color: #f3f3f3;
+        //   border-radius: 20px;
+        //   width: 100px;
+        //   // color: #f3f3f3;
+        // }
         //liste des catégories
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 300;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin: 30px;
         border-radius: 16px;
         // width: 150px;
 
@@ -85,10 +84,12 @@ body {
           border-bottom: solid 1px $color_text_utility;
         }
         li {
-          color: $color_text_adress;
-          padding: 5px;
-          margin-left: 15px;
-          margin-right: 15px;
+          color: $color_margin;
+          background-color: $color_filter;
+          font-weight: 700;
+          padding: 3px 10px 3px 10px;
+          border-radius: 10px;
+          border: $color_margin solid 2px;
         }
       }
     }
