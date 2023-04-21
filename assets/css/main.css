@@ -195,6 +195,12 @@ body main .menu_list ul {
   margin: 30px;
   border-radius: 16px;
 }
+body main .menu_list ul .menu_deroulant_hidden {
+  display: none;
+}
+body main .menu_list ul .menu_list_border {
+  border-bottom: solid 1px #797575;
+}
 body main .menu_list ul li {
   color: #ff5c28;
   background-color: #FFFFFF;
