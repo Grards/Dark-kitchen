@@ -7,16 +7,18 @@
     <title>Dark kitchen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
-    <script src="../assets/javascript/dishes.js"></script>
+    <link rel="stylesheet" href="./assets/styles/css/main.css" />
+
+    <script type="module" src = "./assets/scripts/main.js"></script>
+
+
+    <!-- <script src="../assets/javascript/dishes.js"></script>
     <script defer src="../assets/javascript/cards.js"></script>
     <script defer src="../assets/javascript/filter.js"></script>
     <script defer src="./javascript/dark_mode.js"></script>
-    <script defer src="./javascript/show_purchases.js"></script>
+    <script defer src="./javascript/show_purchases.js"></script> -->
   </head>
   <body>
     <header>
@@ -24,19 +26,19 @@
       <h1>Dark kitchen</h1>
       <div class="button_dark" title="Night/Day Mode">
         <div onclick="changeMode()" class="dark_mode_btn">
-          <img src="./img/theme-light-dark.svg" />
+          <img src="./assets/images/navigation/theme-light-dark.svg" />
         </div>
       </div>
       <div class="shopping-cart-icon" class="dark_mode_btn" title="List of purchases">
         <div class="showPurchases">
-          <img src="./img/cart2.svg" />
+          <img src="./assets/images/navigation/cart2.svg" />
         </div>
       </div>
       <div class="nav_bar">
         <article class="nav_search_bar">
           <div class="search_bar_form_around">
             <div class="search_bar_form_around_img">
-              <img src="./img/loupe.svg" alt="Image loupe" />
+              <img src="./assets/images/navigation/loupe.svg" alt="Image loupe" />
             </div>
             <form class="search_bar_form">
               <input

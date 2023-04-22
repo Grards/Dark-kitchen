@@ -1,5 +1,4 @@
-const purchases = document.querySelector(".shopping_cart_infos");
-const cart_shop = document.querySelector(".shopping-cart-icon");
+
 console.log(cartItemsElements);
 
 function showPurchases() { 

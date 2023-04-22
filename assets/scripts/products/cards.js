@@ -1,9 +1,7 @@
-const productsElements = document.querySelector(".content_food_cards--array");
-const cartItemsElements = document.querySelector(".shopping_cart_content_import");
-const subTotalItems = document.querySelector(".shopping_cart_checkout_sub_total");
-const subTotalPrice = document.querySelector(".shopping_cart_checkout_sub_total_price");
+import { variables } from "../modules/_variables.js";
+import { menu } from "../products/dishes.js";
 
-function renderProducts(){
+export function renderProducts(){
   menu.forEach((product) => {
     productsElements.innerHTML += `
       <article class="cards_section add-to-cart" onclick="addToCart(${product.id})">
@@ -58,15 +56,15 @@ function renderSubtotal(){
     totalItems += item.numberOfUnits;
   });
 
-  subTotalItems.innerHTML = `Nombre d'objets : ${totalItems}`;
-  subTotalPrice.innerHTML = `Prix total : ${totalPrice.toFixed(2)}€`;
+  variables.subTotalItems.innerHTML = `Nombre d'objets : ${totalItems}`;
+  variables.subTotalPrice.innerHTML = `Prix total : ${totalPrice.toFixed(2)}€`;
 }
 
 //render cart items
 function renderCartItems(){
-  cartItemsElements.innerHTML = "" // clear cart element
+  variables.cartItemsElements.innerHTML = "" // clear cart element
   cart.forEach((item) =>{
-    cartItemsElements.innerHTML +=`
+    variables.cartItemsElements.innerHTML +=`
       <article class="cart_section">
         <section class="cart_image" style='background-image:${item.image};' onclick="removeItemFromCart(${item.id})"></section>
         
